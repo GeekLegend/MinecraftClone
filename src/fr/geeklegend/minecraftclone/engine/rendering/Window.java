@@ -18,6 +18,9 @@ public class Window
         this.width = width;
         this.height = height;
         this.title = title;
+        this.isFullscreen = false;
+        this.isResizable = false;
+        this.isSync = false;
     }
 
     public Window(int width, int height, String title, boolean isFullscreen, boolean isResizable, boolean isSync)
